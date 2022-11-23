@@ -1,0 +1,42 @@
+@charset "utf-8";
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body,
+body a {
+  font-family: "NanumSquareNeo-Variable";
+  color: var(--main-c1);
+}
+
+.mw {
+  width: calc(100% - 2rem);
+  max-width: 1300px;
+  margin: auto;
+}
+
+:root {
+  font-size: 16px;
+  --main-c1: #000055;
+  --main-c2: #f5005b;
+  --sub-c1: #838383;
+  --sub-c2: #ffffff;
+  --bg-c: #fbf5f0;
+}
+
+/***** 플로팅 메뉴 ******/
+.f_menu {
+  display: none;
+}
