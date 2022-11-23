@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>고은비_상상스케치</title>
+  </head>
+  <!-- my_reset -->
+  <link rel="stylesheet" href="./my_reset.css" />
+
+  <!--font_awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Link Swiper's CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css, js/common.css" />
+
+  <!-- jquery -->
+  <!-- <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script> -->
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- JS -->
+  <script src="./css, js/common.js" defer></script>
+
+  <body>
+    <!-- 플로팅 메뉴 -->
+    <div class="f_menu">
+      <a href="#"><i class="fa-solid fa-headphones-simple"></i> </a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i> </a>
+      <a href="#"><i class="fa-solid fa-chevron-up"></i> </a>
+    </div>
+
+    <!-- 헤더 -->
+    <div>배경</div>
+    <header class="hd">
+      <div class="hd_top">
+        <div class="login">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#">마이페이지</a>
+        </div>
+        <div>
+          <input type="submit" name="search" value="검색해보세요!" class="sh" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </div>
+      <nav class="hd_bottom">
+        <a href="#"><img src="./img/logo.png" alt="로고" /></a>
+        <ul class="gnb">
+          <li>
+            <a href="#">머그컵</a>
+          </li>
+          <li>
+            <a href="#">마우스패드</a>
+            <ul class="sub">
+              <li><a href="#">일반</a></li>
+              <li><a href="#">오버록</a></li>
+              <li><a href="#">장패드</a></li>
+              <li><a href="#">극세사</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">쿠션</a>
+            <ul class="sub">
+              <li><a href="#">모찌쿠션</a></li>
+              <li><a href="#">보들쿠션</a></li>
+              <li><a href="#">통통쿠션</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">컵받침</a>
+          </li>
+          <li>
+            <a href="#">텀블러</a>
+          </li>
+          <li>
+            <a href="#">족자봉</a>
+            <ul class="sub">
+              <li><a href="#">포토천</a></li>
+              <li><a href="#">이지배너</a></li>
+              <li><a href="#">더블스웨이드</a></li>
+              <li><a href="#">PET</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">미니배너</a>
+          </li>
+          <li>
+            <a href="#">핸드타월</a>
+          </li>
+          <li>
+            <a href="#">안경닦이</a>
+          </li>
+          <li>
+            <a href="#">열쇠고리</a>
+          </li>
+        </ul>
+        <div class="bar"><i class="fa-solid fa-bars"></i></div>
+      </nav>
+    </header>
+
+    <!-- 섹션1 -->
+    <section class="sec1">
+      <h1 hidden>메인배너</h1>
+      <!-- *광고 배너 이미지 보완하기* -->
+      <!-- Swiper -->
+      <article class="swiper slide_1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/main_banner01.png" alt="메인배너1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/main_banner02.png" alt="메인배너2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/main_banner03.png" alt="메인배너3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/main_banner04.png" alt="메인배너4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/main_banner05.png" alt="메인배너5" />
+          </div>
+        </div>
+        <div class="swiper-button-next next1"></div>
+        <div class="swiper-button-prev prev1"></div>
+      </article>
+    </section>
+
+    <!-- 섹션2 -->
+    <section class="sec2">
+      <h2 hidden>가이드</h2>
+      <div class="sec2_con">
+        <div><img src="./img/help-desk.png" alt="문의" /></div>
+        <p>
+          <span>작업가이드</span>
+          <span>게시판으로 이동합니다</span>
+        </p>
+      </div>
+      <div class="sec2_con">
+        <div><img src="./img/road-signs.png" alt="문의" /></div>
+        <p>
+          <span>작업가이드</span>
+          <span>상상스케치 가이드 모음</span>
+        </p>
+      </div>
+      <div class="sec2_con">
+        <div><img src="./img/process.png" alt="문의" /></div>
+        <p>
+          <span>주문절차</span>
+          <span>원하시는 일정은 문의주세요</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- 섹션3 -->
+    <section class="sec3">
+      <h2 hidden>notie</h2>
+      <!-- *배너이미지 수정* -->
+      <!-- Swiper -->
+      <article class="swiper slide_2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/faq_banner01.png" alt="faq01" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/faq_banner02.png" alt="faq02" />
+          </div>
+        </div>
+        <div class="swiper-button-next next2"></div>
+        <div class="swiper-button-prev prev2"></div>
+      </article>
+
+      <article>
+        <div class="tab_menu">
+          <button class="on">공지사항</button>
+          <button>FAQ</button>
+          <button>상품후기</button>
+          <button>상품문의</button>
+        </div>
+
+        <article class="tab_menu tab1">
+          <ul>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+          </ul>
+          <a href="#"><i class="fa-solid fa-plus"></i></a>
+        </article>
+
+        <article class="tab_menu tab2">
+          <ul>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+          </ul>
+          <a href="#"><i class="fa-solid fa-plus"></i></a>
+        </article>
+
+        <article class="tab_menu tab3">
+          <ul>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+          </ul>
+          <a href="#"><i class="fa-solid fa-plus"></i></a>
+        </article>
+
+        <article class="tab_menu tab4">
+          <ul>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span>공지</span>Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</a
+              >
+            </li>
+          </ul>
+          <a href="#"><i class="fa-solid fa-plus"></i></a>
+        </article>
+      </article>
+    </section>
+
+    <!-- 섹션4 -->
+    <section class="sec4">
+      <h2 hidden>catch</h2>
+      <p><strong>상상</strong>하는 모든 디자인을 <strong>상상</strong>하다.</p>
+    </section>
+
+    <!-- 섹션5 -->
+    <section class="sec5">
+      <!-- Swiper -->
+      <div class="swiper slide_3">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="slide_inner">
+              <div><img src="./img/review_img001.png" alt="리뷰1" /></div>
+              <p>
+                너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
+                표시됩니다.
+              </p>
+              <p>adc&#42;&#42;&#42;&#42;&#42;<span>님</span></p>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="slide_lnner">
+              <div><img src="./img/review_img002.png" alt="리뷰1" /></div>
+              <p>
+                너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
+                표시됩니다.
+              </p>
+              <p>adc&#42;&#42;&#42;&#42;&#42;<span>님</span></p>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="swiper-slide">
+              <div><img src="./img/review_img003.png" alt="리뷰1" /></div>
+              <p>
+                너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
+                표시됩니다.
+              </p>
+              <p>adc&#42;&#42;&#42;&#42;&#42;<span>님</span></p>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <dic class="swiper-slide">
+              <div><img src="./img/review_img004.png" alt="리뷰1" /></div>
+              <p>
+                너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
+                표시됩니다.
+              </p>
+              <p>adc&#42;&#42;&#42;&#42;&#42;<span>님</span></p>
+            </dic>
+          </li>
+          <li class="swiper-slide">
+            <div class="swiper-slide">
+              <div><img src="./img/review_img001.png" alt="리뷰1" /></div>
+              <p>
+                너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
+                표시됩니다.
+              </p>
+              <p>adc&#42;&#42;&#42;&#42;&#42;<span>님</span></p>
+            </div>
+          </li>
+        </ul>
+        <div class="swiper-button-next next3"></div>
+        <div class="swiper-button-prev prev3"></div>
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+      <nav class="f_top">
+        <a href="#">회사소개</a>
+        <a href="#">개인정보취급방침</a>
+        <a href="#">이용약관</a>
+        <a href="#">이용안내</a>
+        <a href="#">대량구매 &#47;제휴 &#47;입점</a>
+      </nav>
+
+      <div class="f_bottom">
+        <div class="use">
+          <p>이용안내</p>
+          <p><strong>문의전화</strong>070-8797-5274</p>
+          <p><strong>직접수령 및 상담안내</strong></p>
+          <p>평일 오전 9:00 ~ 오후 06:00까지 &#40;주말 및 공휴일 제외&#41;</p>
+          <p><strong>직접수령일</strong>주문결재 시 기재</p>
+        </div>
+        <div class="bank">
+          <div><img src="./img/KookminB_logo.png" alt="국민은행" /></div>
+          <p><strong>장형길&#40;상상디앤디&#41;</strong></p>
+          <p>808801-04-104549</p>
+        </div>
+        <address class="add">
+          <p><span>상상디앤디</span>사업자등록번호 109-13-20356</p>
+          <p><span>주소</span>경기도 부천시 오정구 내동 197 3층</p>
+          <p>통신판매업 신고 : 제206-경기부천-2031호</p>
+          <p><span>연락처</span>070-8797-5274 <span>FAX</span>02-2642-8323</p>
+          <p><span>CONTACT</span></p>
+          <p><strong>ss&#64;ss3323.com</strong>for more information</p>
+        </address>
+        <div class="ascro">
+          <div><img src="./img/lgu+ecrow_banner.gif" alt="에스크로" /></div>
+        </div>
+        <div class="booth"><p>XO행사 부스번호 확인하기</p></div>
+        <div class="snb_icon">
+          <a href="#"><img src="./img/logo_instagram.png" alt="인스타" /></a>
+          <a href="#"><img src="./img/logo_twitter.png" alt="트위터" /></a>
+          <a href="#"><img src="./img/logo_kakao.png" alt="카카오톡" /></a>
+          <a href="#"><img src="./img/logo_facebook.png" alt="페이스북" /></a>
+          <a href="#"><img src="./img/logo_naver.png" alt="네이버" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
