@@ -50,20 +50,17 @@
     </div>
 
     <!-- 헤더 -->
-    <div>배경</div>
+
     <header class="hd">
-      <div class="hd_top">
+      <div class="hd_top mw">
         <div class="login">
           <a href="#">로그인</a>
           <a href="#">회원가입</a>
           <a href="#">마이페이지</a>
-        </div>
-        <div>
-          <input type="submit" name="search" value="검색해보세요!" class="sh" />
           <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
       </div>
-      <nav class="hd_bottom">
+      <nav class="hd_bottom mw">
         <a href="#"><img src="./img/logo.png" alt="로고" /></a>
         <ul class="gnb">
           <li>
@@ -121,7 +118,6 @@
     <!-- 섹션1 -->
     <section class="sec1">
       <h1 hidden>메인배너</h1>
-      <!-- *광고 배너 이미지 보완하기* -->
       <!-- Swiper -->
       <article class="swiper slide_1">
         <div class="swiper-wrapper">
@@ -147,35 +143,37 @@
     </section>
 
     <!-- 섹션2 -->
-    <section class="sec2">
+    <section class="sec2 mw">
       <h2 hidden>가이드</h2>
-      <div class="sec2_con">
+      <div class="con">
         <div><img src="./img/help-desk.png" alt="문의" /></div>
         <p>
           <span>작업가이드</span>
           <span>게시판으로 이동합니다</span>
         </p>
+        <a href="#">바로가기</a>
       </div>
-      <div class="sec2_con">
+      <div class="con">
         <div><img src="./img/road-signs.png" alt="문의" /></div>
         <p>
           <span>작업가이드</span>
           <span>상상스케치 가이드 모음</span>
         </p>
+        <a href="#">바로가기</a>
       </div>
-      <div class="sec2_con">
+      <div class="con">
         <div><img src="./img/process.png" alt="문의" /></div>
         <p>
           <span>주문절차</span>
           <span>원하시는 일정은 문의주세요</span>
         </p>
+        <a href="#">바로가기</a>
       </div>
     </section>
 
     <!-- 섹션3 -->
-    <section class="sec3">
+    <section class="sec3 mw">
       <h2 hidden>notie</h2>
-      <!-- *배너이미지 수정* -->
       <!-- Swiper -->
       <article class="swiper slide_2">
         <div class="swiper-wrapper">
@@ -323,13 +321,17 @@
     <!-- 섹션4 -->
     <section class="sec4">
       <h2 hidden>catch</h2>
-      <p><strong>상상</strong>하는 모든 디자인을 <strong>상상</strong>하다.</p>
+      <div>
+        <p>
+          <strong>상상</strong>하는 모든 디자인을 <strong>상상</strong>하다.
+        </p>
+      </div>
     </section>
 
     <!-- 섹션5 -->
     <section class="sec5">
       <!-- Swiper -->
-      <div class="swiper slide_3">
+      <div class="swiper slide_3 mw">
         <ul class="swiper-wrapper">
           <li class="swiper-slide">
             <div class="slide_inner">
@@ -342,7 +344,7 @@
             </div>
           </li>
           <li class="swiper-slide">
-            <div class="slide_lnner">
+            <div class="slide_inner">
               <div><img src="./img/review_img002.png" alt="리뷰1" /></div>
               <p>
                 너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
@@ -352,7 +354,7 @@
             </div>
           </li>
           <li class="swiper-slide">
-            <div class="swiper-slide">
+            <div class="slide_inner">
               <div><img src="./img/review_img003.png" alt="리뷰1" /></div>
               <p>
                 너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
@@ -362,17 +364,17 @@
             </div>
           </li>
           <li class="swiper-slide">
-            <dic class="swiper-slide">
+            <div class="slide_inner">
               <div><img src="./img/review_img004.png" alt="리뷰1" /></div>
               <p>
                 너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
                 표시됩니다.
               </p>
               <p>adc&#42;&#42;&#42;&#42;&#42;<span>님</span></p>
-            </dic>
+            </div>
           </li>
           <li class="swiper-slide">
-            <div class="swiper-slide">
+            <div class="slide_inner">
               <div><img src="./img/review_img001.png" alt="리뷰1" /></div>
               <p>
                 너무 예쁘게 잘 뽑혔습니다. 글자수가 많을 시에 줄임표로
@@ -382,6 +384,8 @@
             </div>
           </li>
         </ul>
+      </div>
+      <div>
         <div class="swiper-button-next next3"></div>
         <div class="swiper-button-prev prev3"></div>
       </div>
