@@ -602,6 +602,15 @@ footer .f_top {
     justify-content: center;
   }
 
+  .f_bottom .con1 {
+    margin-bottom: 1rem;
+  }
+
+  .f_bottom .con2 {
+    position: relative;
+    left: 5%;
+  }
+
   footer .snb_icon {
     flex-direction: row;
   }
